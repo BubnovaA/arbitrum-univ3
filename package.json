@@ -1,0 +1,18 @@
+{
+  "name": "arbitrum-univ3",
+  "license": "UNLICENSED",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --node https://api.studio.thegraph.com/deploy/ arbitrum-univ3",
+    "create-local": "graph create --node http://localhost:8020/ arbitrum-univ3",
+    "remove-local": "graph remove --node http://localhost:8020/ arbitrum-univ3",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 arbitrum-univ3",
+    "test": "graph test"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-cli": "0.62.0",
+    "@graphprotocol/graph-ts": "0.30.0"
+  },
+  "devDependencies": { "matchstick-as": "0.5.0" }
+}

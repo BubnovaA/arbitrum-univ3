@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Build output
+__sapper__/
+public/build/
+build/
+generated/
+
+# Various IDEs
+.idea/
+*.swp
+*.swo
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Svelte/Sapper specific
+cypress/
+*.tsbuildinfo
